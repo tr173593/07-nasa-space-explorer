@@ -7,8 +7,8 @@
 
 /* Page background */
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #0B3D91 0%, #1a1a2e 100%);
+  font-family: Arial, public, sans-serif;
+  background: linear-gradient(135deg, #5b616b 0%, #1a1a2e 100%);
   padding: 20px;
   min-height: 100vh;
 }
@@ -26,13 +26,13 @@ body {
   justify-content: center;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: #0B3D91;
+  background-color: #0b3d91;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  font-family: Verdana, sans-serif;
+  font-family: Verdana, public, sans-serif;
   font-weight: bold;
   color: #ffffff;
   font-size: 32px;
@@ -58,10 +58,10 @@ h1 {
 
 input[type="date"],
 button {
-  font-family: Arial, sans-serif;
+  font-family: Arial, public, sans-serif;
   color: #333;
   padding: 12px 15px;
-  border: 2px solid #0B3D91;
+  border: 2px solid #061f4a;
   border-radius: 4px;
   font-size: 16px;
   width: 100%;
@@ -73,7 +73,7 @@ button {
   color: white;
   cursor: pointer;
   font-weight: bold;
-  border-color: #E31937;
+  border-color: #99231b;
   transition: all 0.3s ease;
 }
 
@@ -135,7 +135,7 @@ button:active {
   flex: 1 1 100%;
   min-width: 280px;
   max-width: 500px;
-  background: white;
+  background: #f1f1f1;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
